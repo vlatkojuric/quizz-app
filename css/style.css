@@ -59,3 +59,38 @@ button {
   top: 115px;
   right: 5px;
 }
+
+/*question card number two */
+.second-question-section {
+  background-color: rgb(193, 245, 193);
+  min-height: 300px;
+  max-width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.tag {
+  border: 1px solid black;
+  background-color: rgb(208, 200, 200);
+  padding: 0 5px 0 5px;
+}
+
+/*here also*/
+.bookmark-img2 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 445px;
+  right: 5px;
+}
+
+.footer {
+  background-image: linear-gradient(blue, green);
+  height: 100px;
+  max-width: 100%;
+  display: flex;
+}
