@@ -21,6 +21,14 @@ body {
   color: white;
 }
 
+.main-button {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: absolute;
+  right: 20px;
+}
+
 .first-question-section {
   background-color: rgb(238, 219, 242);
   min-height: 300px;
@@ -117,4 +125,16 @@ button {
   justify-content: space-between;
   padding-top: 30px;
   padding-left: 0;
+}
+
+input {
+  width: 600px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-family: monospace;
+  text-align: center;
 }
