@@ -138,3 +138,8 @@ input::placeholder {
   font-family: monospace;
   text-align: center;
 }
+
+body.dark {
+  background-color: black;
+  color: green;
+}
